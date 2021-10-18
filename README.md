@@ -11,6 +11,6 @@ Este repositório foi criado para colocar em prática os conhecimentos adquirido
 * Jquery
 * Recursos Externos (fontawesome e Owl Carousel)
 
-#Prévia do projeto
+# Prévia do projeto
 
 ![Prévia da Imagem](previa.png)
