@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+    font-family: Bebas-Regular, sans-serif;
+    src: url(fonts/Bebas-Regular.otf);
+}
+
+:root{
+    --vermelho: #e50914;
+    --preto: #141415;
+    --branca: #FFFFFF;
+    --cinza: #AAA;
+    --cinza-escuro: #1d1c1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--preto);
+    font-family: 'Lato', sans-serif;
+    color: var(--branca);
+}
+
+/* Barra de navegação */
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-size: 40px;
+    margin-left: 7px;
+    font-family: Bebas Regular, sans-serif;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: var(--branca);
+}
+
+.icones-header i{
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 7px;
+    font-size: 25px;
+ }
+ 
+
+/* Capa */
+
+.capa-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    background-image: url("/images/capa-netflix.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+.capa-principal .descricao{
+    margin-top: 15px;
+}
+
+.capa-principal p>i{
+    color: var(--vermelho);
+    background-color: var(--branca);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top:10px ;
+}
+
+.titulo{
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+button{
+    background-color: rgba(92, 91, 91, 0.8);
+    padding: 10px;
+    border-radius: 7%;
+    border-color: transparent;
+    color: var(--preto);
+    margin-right: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao-1{
+    background-color: var(--branca);
+}
+
+.botao-2{
+    color: var(--branca);
+}
+
+button:hover{
+    background-color: var(--cinza);
+    color: black;
+}
+
+button i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.capa-principal .container{
+    width: 70%;
+}
+
+/* Lista de filmes */
+
+.titulo-series{
+    margin: 30px;
+}
+
+.box-filme{
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+
+.box-series{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-top10 .item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrosel-top10 .item h1{
+    font-family: Bebas Regular, sans-serif;
+    font-size: 200px;
+    color: black;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-right: -20px;
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: var(--cinza);
+}
+
+/* Rodapé */
+
+footer{
+    background-color: #000;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Responsividade*/
+
+@media screen and (max-width: 700px){
+    
+    header .container{
+        padding: 8px;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    
+    .descricao{
+        width: 60%;
+    }
+
+}
