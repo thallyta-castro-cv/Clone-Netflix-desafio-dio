@@ -5,8 +5,8 @@ Este repositório foi criado para colocar em prática os conhecimentos adquirido
 
 #### Tecnologias utilizadas
 
-*HTML
-*CSS 
-*Javascript
-*Jquery
-*Recursos Externos (fontawesome e Owl Carousel)
+* HTML
+* CSS 
+* Javascript
+* Jquery
+* Recursos Externos (fontawesome e Owl Carousel)
