@@ -1,13 +1,16 @@
 # Clone do site Netflix
-### Desafio Digital Innovation One 
+![NPM](https://img.shields.io/npm/l/react)
 
-Este repositório foi criado para colocar em prática os conhecimentos adquiridos nos cursos de HTML, CSS e Javascript da DIO.
+# Sobre o projeto
+Este repositório foi criado para colocar em prática os conhecimentos adquiridos nos cursos de HTML, CSS e Javascript da <b>Digital Innovation One</b> de um projeto <b>Frontend Web</b>.
 
-### Descrição do desafio
+O objetivo do projeto foi recriar a interface do site da Netflix utilizando tecnologias simples como <b>HTML5, CSS3 e JavaScript</b>, além de englobar os conceitos de: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins JQuery.
 
-Recrie a interface do principal site de streaming mundial utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto você aprenderá: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins JQuery a favor da sua aplicação.
+# Layout do projeto
 
-#### Tecnologias utilizadas
+![Prévia da Imagem](previa.png)
+
+# Tecnologias utilizadas
 
 * HTML
 * CSS 
@@ -17,6 +20,12 @@ Recrie a interface do principal site de streaming mundial utilizando tecnologias
 * Owl Carousel
 * Google Fonts 
 
-# Prévia do projeto
+# Autor
+<b>Thallyta Macedo Carvalho de Castro</b>
 
-![Prévia da Imagem](previa.png)
+Linkedin: https://www.linkedin.com/in/thallyta-castro/
+
+Medium: https://medium.com/@thallyta-castro-cv
+
+email: contato@thallytacastro.com.br
+
